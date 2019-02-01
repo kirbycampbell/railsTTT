@@ -3,8 +3,10 @@
 class WelcomesController < ApplicationController
 
   def index
-    @game = Game.new.start_game
-    puts @game, "here is the game"
+    @game = Game.new #.start_game
+    
+    #@test = Test.new
+   
   end
 
 end
