@@ -30,7 +30,11 @@ gem 'rspec'
 gem 'pry'
 gem 'require_all'
 
-
+gem 'rack-cors', require: 'rack/cors'
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+gem 'responders'
+  gem 'pg'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
